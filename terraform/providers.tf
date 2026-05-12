@@ -9,9 +9,9 @@ terraform {
     }
   }
   backend "remote" {
-    organization = "your-tfc-organization"
+    organization = "TechieWealth"
     workspaces {
-      prefix = "your-project-name-"
+      prefix = "website-test_"
     }
   }
 }
